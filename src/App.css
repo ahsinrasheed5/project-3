@@ -13,8 +13,13 @@ body{
   margin-right: 1rem;
   font-size: 1.2rem;
 }
-.navbar ali:hover{
-    color: red;
+
+.navbar a{
+  text-decoration: none;
+  
+}
+.navbar a li:hover{
+  color: black;
 }
 .box{
   display: flex;
