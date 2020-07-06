@@ -2,17 +2,18 @@ body{
   text-align: center;
   justify-content: center;
 }
-.nav{
-  padding: 10px;
-  background-color: blue;
-
+.navbar{
+ display: flex;
+ list-style-type: none;
+ background-color: #cccccc;
+ padding: 1rem;
 }
-.nav a{
-  font-size: 30px;
-    text-decoration: none;
-    color: black;
+.navbar li{
+  cursor: pointer;
+  margin-right: 1rem;
+  font-size: 1.2rem;
 }
-.nav a:hover{
+.navbar ali:hover{
     color: red;
 }
 .box{
